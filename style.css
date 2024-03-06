@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+.header{
+    max-width: 1268px;
+    margin: 0 auto;
+    background-color: rgba(236, 236, 236, 0.89);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 10px;
+}
+  .navbar{
+    width: 1263px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    border-radius: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 15px;
+    background-color: rgb(212, 212, 212);
+    
+  }
+  
+  .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  
+  .logo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 7px;
+    margin: auto;
+    
+  }
+
+  .logo span{
+    color: rgb(32, 2, 2);
+    font-size: 35px;
+  }
+  
+  .menu{
+    width: 300px;
+    float: left;
+    height: 90px;
+  }
+  
+  ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+  
+  ul li a:hover{
+    color: rgb(222, 222, 58);
+  }
+  
+  .hire{
+    width: 150px;
+    float: right;
+    margin-left: 250px;
+  
+  
+  }
+  
+  .btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(35, 33, 33);
+  
+    border-radius: 4px;
+    border-width: 0px;
+    margin-top: 12px;
+    margin-left: 40px;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .btn:focus{
+    outline: none;
+  }
+
+  .btn :hover{
+    color: rgb(166, 162, 239);
+  }
+  
+
+  .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 89vh;
+  }
+
+  .banner{
+    padding: 20px 20px 70px 100px;
+    padding-top: 100px;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    
+
+}
+
+.banner_text{
+    max-width: 400px;
+    
+}
+
+.banner_hi{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+
+
+.banner_title{
+    font-style: bold;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #F0E68C;
+}
+
+.banner_desc{
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.ban_bottom{
+    font-style: bold;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #F0E68C;
+}
+
+.banner .profile{
+    width: 350px;
+    height: 400px;
+    size-adjust: middle;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 25px;
+    
+}
+
+.btn_nav{
+    background-color: rgb(143, 231, 255);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 750;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn_nav :hover{
+    color: rgb(255, 243, 243);
+  }
+  .social_icon{
+    margin-left: 827px;
+    margin-bottom: 320px;
+    padding-top: 0px;
+  }
+  .social_icon a{
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+  
+  .social_icon ion-icon{
+    color: azure;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .social_icon ion-icon:hover{
+    color: coral;
+  }
+
+
+.body{
+    background-color: rgb(90, 90, 90);
+}
+.container{
+    max-width: 1234px;
+    display: flex;
+    gap: 120px;
+    padding: 15px;
+    padding-block-end: 100px;
+    background-color: rgb(98, 99, 100);
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/840843081452.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    margin-left: 120px;
+    max-width: 500px;
+    padding: 50px;
+    margin-top: 80px;
+    background-color: rgb(217, 225, 230);
+    border-radius: 10px;
+}
+.ab_title{
+    text-align: left;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+ }
+
+.ab_desc{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.skills{
+   
+    
+    max-width: 300px;
+    padding: 80px;
+    margin-top: 60px;
+    background-color: rgb(217, 225, 230);
+    border-radius: 10px;
+}
+.sk_title{
+    text-align: left;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+ }
+
+.sk_desc{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.skill_icon{
+    margin-left: -10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+  .skill_icon a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    
+  }
+  
+  .skill_icon ion-icon{
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .skill_icon ion-icon:hover{
+    color: coral;
+  }
+
+  .body2{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 1234px;
+    display: flex;
+    gap: 120px;
+    padding: 15px;
+    padding-block-end: 100px;
+
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/840843081452.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.what{
+    max-width: 1234px;
+    display: flex;
+    padding-bottom: 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/6150433.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+  .whatido{
+    background-color: rgb(217, 225, 230);
+    max-width: 1268px;
+    margin: 90px;
+    padding: 40px;
+    border-radius: 20px;
+  }
+.wid_title{
+    
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(6, 6, 6);
+ }
+
+.wid_desc{
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(6, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+}
+#what-i-do-desc{
+    padding: 20px 180px;
+ }
+
+ .section_desc{
+    text-align: center;
+    color: rgb(52, 56, 71);
+    font-size: 18px;
+ }
+
+ footer{
+    display: flex;
+    gap: 200px;
+    background-color: rgb(216, 241, 255);
+    padding: 130px 200px;
+    border-radius: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/deep-blue-plain-concrete-textured-background.jpg);
+
+}
+
+.footer_feild{
+    width: 60%;
+    font-size: 30px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+.footer_feild1{
+    
+    width: 60%;
+    font-size: 30px;
+    color: antiquewhite;
+    margin-bottom: 50px;
+}
+
+.contact input{
+    display: block;
+    margin-bottom: 25px;
+    color: rgb(52, 56, 71);
+    border-radius: 5px;
+    background-color: rgb(253, 244, 233);
+    width: 80%;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.contact textarea{
+    border: 0;
+    width: 92%;
+    background-color: rgb(253, 244, 233);
+}
+
+
+
+.btn_nav1{
+    background-color: rgb(231, 174, 81);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 750;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
